@@ -111,6 +111,9 @@ all_trip_v2 <- all_trip[!(all_trip$rideable_type == "docked_bike" | all_trip$rid
 ### 공유
 제가 분석섹션에서 구한값을 그래프형식으로 보여줍니다
 
+
+
+
 <img width="494" alt="image" src="https://github.com/json9101/R-Programming/assets/57518426/2a0b4fc5-4976-4e79-bbe1-5236d8864663">
 
 이 그래프를 통해 평일에는 Cyclistic회원들의 사용율이 높지만 주말에는 일반 라이더들의 이용율이 더 높습니다
