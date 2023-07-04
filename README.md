@@ -111,10 +111,15 @@ all_trip_v2 <- all_trip[!(all_trip$rideable_type == "docked_bike" | all_trip$rid
 ### 공유
 제가 분석섹션에서 구한값을 그래프형식으로 보여줍니다
 <img width="494" alt="image" src="https://github.com/json9101/R-Programming/assets/57518426/2a0b4fc5-4976-4e79-bbe1-5236d8864663">
+
 이 그래프를 통해 평일에는 Cyclistic회원들의 사용율이 높지만 주말에는 일반 라이더들의 이용율이 더 높습니다
+
 <img width="662" alt="image" src="https://github.com/json9101/R-Programming/assets/57518426/ab2829a9-34e7-45f0-a3c0-00381960b58c">
+
 위의 그래프를 통해 일반 라이더들이 평균적으로 연간회원보더 더 운행한다는것을 알수있습니다
+
 <img width="503" alt="image" src="https://github.com/json9101/R-Programming/assets/57518426/8747b4be-d21d-424f-8d63-9bc8c311dc8b">
+
 위 그래프에서 우리는 일반 이용자들의 평균 주행 시간이 Cyclistic 회원보다 길다는 정보를 얻을 수 있습니다. 또한, 평균 주행 시간은 주말에 더 높습니다.
 
 ### 행동
